@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask API Example</title>
+</head>
+<body>
+    <h1>Diabetes Prediction</h1>
+    <form action="{{ url_for('submit')}}"method="post">
+        <input type="text" name="Gluscose_data" placeholder="Gluscose"><br>
+        <input type="text" name="BMI_data" placeholder="BMI"><br>
+        <input type="text" name="Age_data" placeholder="Age"><br>
+        <input type="text" name="Pregnancies_data" placeholder="Pregnancies"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
